@@ -27,9 +27,9 @@ body {
         background-color: #8041C2;
     }
 
-    &__image__illustration {
+  /*   &__image__illustration {
         width: 700px;
-    }
+    } */
 
     &__image__logo {
         width: 100px;
@@ -58,6 +58,10 @@ body {
     .main {
         h2 {
             font-size: calc(1rem + 2vw);
+        }
+
+        &__image__illustration {
+            width: 400px;
         }
 
         &__image__logo {

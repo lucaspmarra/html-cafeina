@@ -15,6 +15,11 @@ body {
   min-height: 100vh;
 }
 
+.main {
+  /*   &__image__illustration {
+        width: 700px;
+    } */
+}
 .main__section {
   margin: 0;
   width: 100%;
@@ -22,9 +27,6 @@ body {
 }
 .main__image__section {
   background-color: #8041C2;
-}
-.main__image__illustration {
-  width: 700px;
 }
 .main__image__logo {
   width: 100px;
@@ -48,6 +50,9 @@ body {
 @media only screen and (max-width: 40em) {
   .main h2 {
     font-size: calc(1rem + 2vw);
+  }
+  .main__image__illustration {
+    width: 400px;
   }
   .main__image__logo {
     width: 60px;
